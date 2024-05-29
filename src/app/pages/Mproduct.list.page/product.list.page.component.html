@@ -1,0 +1,35 @@
+<div class="productHeading">
+  <h1>Shop Makeup</h1>
+</div>
+ 
+<section id="product">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="row mt-3">
+          <div class="col-lg-4 pt-1" *ngFor="let product of productList">
+            <div class="card-wrap">
+              <div class="card">
+                <img class="img-fluid" [src]="product.imageUrl" alt="..." (click)="viewProductDetails(product.id)">
+                <div class="card-body">
+                  <h5 class="card-title">{{ product.name }}</h5>
+                  <p class="card-text">
+                    <span>${{ product.price }}</span>
+                  </p>
+                  <div class="button-container" *ngIf="product.addedToCart">
+                    <button class="btn btn-sm btn-secondary" (click)="decreaseQuantity(product)">-</button>
+                    {{ product.quantity }}
+                    <button class="btn btn-sm btn-secondary" (click)="increaseQuantity(product)">+</button>
+                  </div>
+                  <div class="button-container" *ngIf="!product.addedToCart">
+                    <button class="btn btn-sm btn-success" (click)="addItemToCart(product)">Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

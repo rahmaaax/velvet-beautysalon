@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins';
+}
+body {
+    margin: 0; 
+    padding: 0; 
+    overflow-x: hidden; 
+    background-color: #fffafc;
+  }
+
+.navbar-custom {
+  min-height: 60px;
+  padding: 10px;
+  background-color: transparent !important;
+  color: #ddd;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #d5dddF !important; 
+}
+
+
+footer{
+  border-top: rgb(145, 145, 145);
+  background-color: #fffafc;
+  height: 75px;
+}
+.table{
+  color: #e6c2bf;
+  background-color: #e6c2bf !important; 
+  border: none !important;
+}
+.clrbox{
+  background-color: #e6c2bf;
+}
+  
+  
+  
+  

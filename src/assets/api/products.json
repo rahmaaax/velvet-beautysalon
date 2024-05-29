@@ -1,0 +1,245 @@
+[
+    {
+      "id": 1,
+      "name": "‘Better than love’ Mascara",
+      "details": "Better Than Love mascara contains a film-forming polymer for smudge-proof, long-lasting wear. Acacia Senegal Tree Extract nourishes and thickens lashes and locks curl in place. Unique peptides deliver the most intense black possible. You’ll instantly fall in love with the fuller, longer look this mascara will give your lashes! One sweep of this mascara and your lashes are left full, defined, and stretched to unbelievable lengths. Two coats and they’ll soar to new heights of drama. Three coats and you’ll believe in lash magic.",
+      "price": 499.99,
+      "description": "A volumizing mascara so amazing, it's better than love!",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.12.08_5cb94aa2.jpg",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.12.06_b0abd5f8.jpg",
+      "productRating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Dior Backstage Face Pallete",
+      "details": "The Glow Face Palette is the Dior makeup artists' secret for adding instant radiance to any look, from a natural healthy glow to an intense luminosity. This new harmony of four original shades suits every style and skin tone: a delicately shimmering peach, a bronze with holographic accents, a gold and a pearly white with maxi glitter.",
+      "price": 899.99,
+      "description": "Professional performance - pure shimmer, blendable - highlight & blush",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.11_a2fc8556.jpg",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.09_8637abeb.jpg",
+      "productRating": 5.0
+    },
+    {
+      "id": 3,
+      "name": "Bubblegum Melting Blush",
+      "details": "Inspired by the soft, flushed look we get when we feel the most vulnerable, this unique liquid-like cream melts on contact for a truly weightless wash of color that lasts all day. Goes on smooth and seamless for a natural satin finish with a soft blurring effect. Water-resistant, and won’t cake, crease, or clog pores.",
+      "price": 899.99,
+      "description": "Cream blush that melts into a second skin",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.01.13_9bf48dea.jpg",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.01.12_0a7686c6.jpg",
+      "productRating": 4.7
+    },
+    {
+      "id": 4,
+      "name": "Yummy Lip Butter",
+      "details": "An ultra-hydrating, barrier-protecting formula for a healthy-looking, pouty lip. this skincare-rich balm instantly quenches dry, chapped lips in silky moisture for up to 24 hours, maintains the skin barrier, and visibly improves the look of lip lines. shea butter and jojoba oil; help hydrate, condition, and soothe lips. also contains cloudberry seed oil.",
+      "price": 555.99,
+      "description": "A balm for a cushiony, supple pout.",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.16.46_1666598a.jpg",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.12.06_27c478c6.jpg",
+      "productRating": 4.2
+    },
+    {
+      "id": 5,
+      "name": "Urban Decay Setting Spray",
+      "details": "This award-winning waterproof setting spray and makeup sealer sets your makeup and locks in your look, so you're good to go for up to 16 hours—no touch-ups needed all day. With our patented Temperature Control Technology, this lightweight makeup finishing spray keeps your face feeling cooled and refreshed while preventing smudging and settling into fine lines – from foundation and concealer to eyeshadow and blush—to lock it in place. The result? Smoother-looking skin and vibrant makeup that lasts all day (or night).",
+      "price": 750.99,
+      "description": "All night Waterproof setting spray",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.11_1c42c0b2.jpg",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.09_68e85568.jpg",
+      "productRating": 5.0
+    },
+    {
+      "id": 6,
+      "name": "Chanel Glow Face Primer",
+      "details": "A limited-edition moisturizing primer that wakes up the complexion for a natural-looking healthy glow and a reinvigorated appearance. silky texture wears like a second skin, delivering an instant and surprising feeling of freshness. The formula, featuring hyaluronic acid, plumps and intensely hydrates throughout the day. Enriched with jasmine oil for comfort and blue micro-algae for antioxidant benefits, it also helps protect skin from oxidative stress. The complexion is illuminated with sheer radiance.",
+      "price": 100.99,
+      "description": "Healthy Winter Glow Primer",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.09_b8b62e46.jpg",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.11_899f591c.jpg",
+      "productRating": 4.9
+    },
+    {
+      "id": 7,
+      "name": "Chanel Pressed Powder",
+      "details": "jasmine-flower-infused oil—known for its hydrating properties—helps preserve skin’s barrier, provides lasting comfort and helps protect against free radicals and pollution. Photo-adaptive pigments ensure radiance in all lighting. A refill compatible with the versatile powder, which imparts a natural-looking healthy glow. The lightweight formula offers a blurring effect and delivers imperceptible buildable coverage with a second-skin satin finish that never creases.",
+      "price": 499.99,
+      "description": "Healthy Glow Sheer Powder",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.16.45_1fbaf482.jpg",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.16.47_02857618.jpg",
+      "productRating": 30
+    },
+    {
+      "id": 8,
+      "name": "‘THANK U NEXT’ Eyeliner",
+      "details": "create high-performance looks—from classic to graphic—with this waterproof, smudge-proof marker that lasts up to 48 hours. designed for maximum precision, ari’s go-to liner is powered by flexible film formers to deliver all-day comfort and fluid application. the easy-to-use tapered tip deposits blackest-black ink pigments that lock onto lids without fading or feathering",
+      "price": 899.99,
+      "description": "An intensely bold, long-wearing eyeliner ",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.09_ff4ce501.jpg",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.09_d2409f06.jpg",
+      "productRating": 45
+    },
+    {
+      "id": 9,
+      "name": "Almost Lipstick in Black Honey",
+      "details": "This iconic shade is famous for its chameleon-like ability to flatter all skin tones yet look different on everyone. The secret is its perfect blend of blue, red, and yellow pigments in a creamy, sheer base that melts into lips, playing up their natural color. Don’t be fooled by the way Black Honey Clinique Lipstick looks in the tube. Transparent pigment glides on a sheer, glossy slip of lightweight color.",
+      "price": 129.99,
+      "description": " Clinique’s cult classic Black Honey Lipstick flatters every face.",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.10_c9692837.jpg",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.09_24674062.jpg",
+      "productRating": 75
+    },
+    {
+      "id": 10,
+      "name": "Raseberry lip tint",
+      "details": "Meet Lip Tint. Sheer-but-buildable color that melts onto lips for a hint of tint and rich, glossy finish. The restorative, fragrance-free formula leaves lips naturally plump, hydrated, and nourished from within. Size: 10ml / .3 fl oz. Peptide Lip Tint packaging is made with upcycled post-consumer (PCR) materials.",
+      "price": 555.99,
+      "description": "A lip tint formulated with Peptides",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.09_665b3c7a.jpg",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.10_e484b4cf.jpg",
+      "productRating": 40
+    },
+    {
+      "id": 11,
+      "name": "Dior Addict Lip Maximizer",
+      "details": "The iconic Dior Addict Lip Maximizer plumping lip gloss gets a refresh with a new 90% natural-origin formula, a reimagined case and updated shades. Free of sulfates SLS and SLES, parabens, formaldehydes, formaldehyde-releasing agents, phthalates, mineral oil, retinyl palmitate, oxybenzone, coal tar, hydroquinone, triclosan, and triclocarban, and contains less than one percent of synthetic fragrances. This product is also vegan, cruelty-free, and gluten-free, and comes in recyclable packaging.",
+      "price": 750.99,
+      "description": "Dior Addict Lip Maximizer Plumping Gloss",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.12.07_735d059e.jpg",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.12.08_7c85a80e.jpg",
+      "productRating": 25
+    },
+    {
+      "id": 12,
+      "name": "Birthday Cake Lip Primer",
+      "details": "A restorative lip treatment for naturally plump, pillowy-soft lips — day or night. This dreamy formula leaves lips looking glossy and works hard to nourish dry skin. Same glazing formula, now in our new head-to-toe glazed packaging. Size: 10ml / .3 fl oz. Restores + replenishes dry lips. Helps lock-in moisture for visibly plumper, softer lips",
+      "price": 100.99,
+      "description": "Nourishing peptide lip treatment",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.12.07_562bb32f.jpg",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.09_e92bae3c.jpg",
+      "productRating": 25
+    },
+    {
+      "id": 13,
+      "name": "‘VICHY’ hylaronich serum",
+      "details": "The Glow Face Palette is the Dior makeup artists' secret for adding instant radiance to any look, from a natural healthy glow to an intense luminosity. This new harmony of four original shades suits every style and skin tone: a delicately shimmering peach, a bronze with holographic accents, a gold and a pearly white with maxi glitter.",
+      "price": 499.99,
+      "description": "Professional performance - pure shimmer, blendable - highlight & blush",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.11_8b0cddc5.jpg",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.16.45_3acb5b81.jpg",
+      "productRating": 25
+    },
+    {
+      "id": 14,
+      "name": "Exfoliating Hair Brush",
+      "details": "This Exfoliating Hair Brush features soft, flexible bristles that help to remove dead skin cells and product buildup from your scalp. The ergonomic design ensures a comfortable grip, making it easy to use in the shower. Regular use promotes healthier hair growth and leaves your scalp feeling refreshed and rejuvenated.",
+      "price": 299.99,
+      "description": "A must-have tool for a clean, healthy scalp.",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.11_2ca56395.jpg",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.11_776b702a.jpg",
+      "productRating": 4.7
+    },
+    {
+      "id": 15,
+      "name": "Coffee - Gentle Scrub",
+      "details": "This Coffee Gentle Scrub combines finely ground coffee beans with nourishing oils to gently exfoliate and moisturize your skin. The invigorating coffee scent awakens your senses, while the natural ingredients leave your skin feeling soft, smooth, and rejuvenated. Suitable for all skin types.",
+      "price": 199.99,
+      "description": "A gentle, natural scrub that leaves your skin glowing.",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.09_f92f7679.jpg",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.09_1c3c836a.jpg",
+      "productRating": 4.8
+    },
+    {
+      "id": 16,
+      "name": "L’Ocittane Hand Cream",
+      "details": "L’Ocittane Hand Cream is enriched with 20% shea butter, blended with honey, almond extracts, and coconut oil to create a highly effective formula. This luxurious hand cream glides on and absorbs to help heal and protect dry or dehydrated skin, leaving hands soft and smooth without any oily traces.",
+      "price": 249.99,
+      "description": "Deeply nourishing hand cream for silky smooth hands.",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.11_5bba5892.jpg",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.11_4f9e2841.jpg",
+      "productRating": 4.9
+    },
+    {
+      "id": 17,
+      "name": "LUSH Bath and Shower Gel",
+      "details": "LUSH Bath and Shower Gel is a luxurious formula that creates a rich lather to cleanse and hydrate your skin. Infused with essential oils and natural fragrances, it leaves your skin feeling refreshed and lightly scented. Suitable for daily use and perfect for all skin types.",
+      "price": 179.99,
+      "description": "Indulge in a luxurious bath and shower experience.",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.09_0e909f91.jpg",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.16.46_c11e8f11.jpg",
+      "productRating": 4.6
+    },
+    {
+      "id": 18,
+      "name": "Lift-Active Face Wash",
+      "details": "Lift-Active Face Wash is a gentle, foaming cleanser that lifts away dirt, oil, and makeup while leaving your skin feeling refreshed and revitalized. Enriched with vitamins and antioxidants, it helps to improve skin texture and tone. Suitable for all skin types and daily use.",
+      "price": 349.99,
+      "description": "A refreshing face wash for a clean, lifted complexion.",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.09_b1b8ad0e.jpg",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.10_6830d738.jpg",
+      "productRating": 4.7
+    },
+    {
+      "id": 19,
+      "name": "Almond Cuticle Nail Oil",
+      "details": "Almond Cuticle Nail Oil is a nourishing treatment that softens and conditions your cuticles. Infused with sweet almond oil, it hydrates and strengthens your nails, promoting healthy growth. The easy-to-use applicator makes it perfect for at-home manicures.",
+      "price": 129.99,
+      "description": "Nourish and protect your cuticles with almond oil.",
+      "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.16.45_0e288a3a.jpg",
+      "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.16.45_4845efe4.jpg",
+      "productRating": 4.5
+    },
+      {
+          "id": 20,
+          "name": "Good Habit Eye Cream",
+          "details": "Good Habit Eye Cream is a rich, hydrating formula designed to target dark circles, puffiness, and fine lines around the delicate eye area. Infused with hyaluronic acid, peptides, and caffeine, this eye cream provides intense moisture, firms the skin, and reduces the appearance of tired eyes. Suitable for all skin types, it absorbs quickly without leaving a greasy residue.",
+          "price": 39.99,
+          "description": "A hydrating eye cream to reduce dark circles and puffiness.",
+          "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.12.08_149cb131.jpg",
+          "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.17.52_c702db922.jpg",
+          "productRating": 4.6
+      },
+      {
+          "id": 21,
+          "name": "Glycolic Acid 0.5% Serum",
+          "details": "This lightweight serum with 0.5% glycolic acid gently exfoliates the skin to reveal a smoother, brighter complexion. Enriched with aloe vera and green tea extract, it soothes and nourishes the skin, reducing irritation and promoting a healthy glow. Perfect for all skin types, this serum helps improve skin texture, reduce the appearance of fine lines, and even out skin tone.",
+          "price": 24.99,
+          "description": "A gentle exfoliating serum for a brighter complexion.",
+          "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.12.06_70e62b6f.jpg",
+          "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.11_9d96786b.jpg",
+          "productRating": 4.7
+      },
+      {
+          "id": 22,
+          "name": "‘Rare’ Barrier Restoring Cream",
+          "details": "‘Rare’ Barrier Restoring Cream is a deeply hydrating moisturizer that strengthens and repairs the skin's natural barrier. Formulated with ceramides, niacinamide, and squalane, this cream helps to lock in moisture, soothe irritation, and protect the skin from environmental stressors. Suitable for all skin types, especially sensitive and dry skin, it leaves the skin feeling soft, smooth, and resilient.",
+          "price": 34.99,
+          "description": "A barrier-restoring cream for hydrated and protected skin.",
+          "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.11_a7481687.jpg",
+          "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.16.46_e4126b30.jpg",
+          "productRating": 4.8
+      },
+      {
+          "id": 23,
+          "name": "313 Hand Cream",
+          "details": "The 313 Hand Cream is a nourishing formula that provides long-lasting moisture and protection for dry, chapped hands. Infused with shea butter, vitamin E, and aloe vera, this hand cream absorbs quickly, leaving hands soft, smooth, and non-greasy. Perfect for daily use, it helps to repair and protect the skin's barrier, ensuring hands stay hydrated and comfortable all day.",
+          "price": 14.99,
+          "description": "A nourishing hand cream for dry, chapped hands.",
+          "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.11_87d99e01.jpg",
+          "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.11_aa56a4ba.jpg",
+          "productRating": 4.4
+      },
+      {
+          "id": 24,
+          "name": "Beauty of Johnson Face Mask",
+          "details": "Beauty of Johnson Face Mask is a luxurious sheet mask infused with hyaluronic acid, vitamin C, and green tea extract. This mask provides intense hydration, brightens the complexion, and helps to reduce the appearance of fine lines and wrinkles. Suitable for all skin types, it delivers a spa-like experience at home, leaving the skin feeling refreshed, revitalized, and radiant.",
+          "price": 9.99,
+          "description": "A hydrating and brightening sheet mask for radiant skin.",
+          "imageUrl": "assets/Products/WhatsApp Image 2024-05-19 at 03.09.09_d5addecd.jpg",
+          "imageUrl2": "assets/Products/WhatsApp Image 2024-05-19 at 03.12.08_03666f70.jpg",
+          "productRating": 4.5
+      }
+  
+    
+  ]
+  

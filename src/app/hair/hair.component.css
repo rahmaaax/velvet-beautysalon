@@ -1,0 +1,785 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    overflow-x: hidden; 
+  }
+  
+  .hair-section{
+    background-image:url(/assets/Hair/1.jpg);
+    background-position: center;
+    height: 110vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+  }
+   .blur-overlayy {
+    position: absolute;
+    width: 110vh;
+    height: 110vh;
+    backdrop-filter: blur(3px);
+  }
+  
+  .paragraphs{
+    font-size: 55px;
+    color: #ffffff;
+    font-family: "Aboreto", system-ui;
+    z-index: 1;
+    text-align: center;
+    align-self: flex-start;
+    flex: 1;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin: 0;
+  }
+  .paragraphs h3 {
+    margin: 230px 9px 9px 20px;
+  }
+  
+  .paragraphs h3.secoond-paragraph {
+     /* Adjusted left margin */
+    margin-top: 12px; /* Adjusted bottom margin */
+  }
+  
+  .paragraphs h3.third-paragraph {
+    /* Adjusted left margin */
+    margin-top: 12px; /* Adjusted bottom margin */
+  }
+  .begin{
+    background-color:#fffafc; 
+    height: 70vh;
+    width: auto;
+  }
+  .pink-box h3{
+    text-align: center;
+    padding-top: 70px;
+    color: #2f2d2d;
+    font-size: 60px;
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 50px;
+  }
+  .pink-box p{
+    text-align: center;
+    padding: 20px;
+    color: #000000;
+    font-size: 22px;
+    margin-top: 10px;
+    font-family: "Lexend Zetta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  
+  .photo-section {
+    background-color: #fff6f6;
+    padding: 50px;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    align-items: center;
+  }
+  
+  .photo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Increased space between items */
+    position: relative;
+  }
+  
+  .photo-item:nth-child(odd) {
+    flex-direction: row-reverse; /* Photo on the right for odd items */
+  }
+  
+  .photo-item img {
+    width: 330px; /* Increased size */
+    height: 360px; /* Increased size */
+    object-fit: cover;
+    margin: 0px 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 18px; /* Circular edges */
+    align-items: center;
+    margin-right: 70px;
+    margin-left: 90px;
+  
+  }
+  
+  .photo-item p {
+    color: #000000;
+    word-wrap: break-word; /* Ensure text wraps within the max-width */
+    text-align: justify; 
+    max-width: 470px; /* Adjust the max-width as needed */
+  }
+  .price-cut{
+    justify-content: center;
+    text-align: center;
+    color:#000000;
+    background-color:#f8dde6 ;
+    height: 110vh;
+   
+  }
+  .price-cut h1{
+    margin-top: 10px;
+    padding-block-start: 12px;
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:70px;
+    font-weight: bolder;
+   
+   
+  }
+  
+  h3 span {
+    display: block; /* Display each item on a new line */
+    margin-bottom: 2px; /* Add bottom margin for spacing */
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    color: #2f2d2d;
+    font-style: normal;
+  }
+  
+   h4 span {
+    display: block; /* Display each item on a new line */
+    margin-bottom: 2px; /* Add bottom margin for spacing */
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    color: #2f2d2d;
+    font-style: normal;
+  }
+  hr {
+    border: none; /* Remove default border */
+    border-top: 3px solid black; /* Add custom top border */
+    margin: 2px auto  ; 
+    width: 50%;
+    margin-top: 2px;
+  }
+  
+  .treatments {
+    position: relative;
+    height: 30vh; /* Adjust height as needed */
+  }
+  
+  .treatments h1, .treatments h2 {
+    position: absolute;
+    top: 10%;
+    left: 21%;
+    transform: translate(-200%, -150%,-190%,-200%);
+    max-width: 80%;
+  }
+  .treatments h1 {
+    z-index: 2; 
+  }
+  
+  .treatments h1 {
+    font-size: 55px;
+    font-family: "Lexend Zetta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    color: #000000;
+  }
+  
+  .treatments h2 {
+    font-size: 70px;
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:#ef97b5 ;
+   
+  }
+  
+  /* start of bio section here */
+  
+  .bio-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 35px;
+  }
+  
+  .bio-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px; /* Adjust max-width as needed */
+  }
+  
+  .bio-text {
+    flex: 1;
+    padding-right: 300px;
+    align-self: flex-start;
+    
+  }
+  
+  .bio-text h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .bio-text p {
+    font-size: 27px;
+    margin-bottom: 10px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .bio-text h3 {
+    font-size: 31px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .bio-photo {
+    flex: 1;
+  }
+  
+  .bio-photo img {
+    width: 100%;
+    max-width: 350px; /* Adjust max-width as needed */
+    height: auto;
+    display: block;
+    border-radius: 23px;
+    margin-right: 0px;
+  }
+  
+  
+  /* START of OLAPLEX section here */
+  .ola-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 35px;
+  }
+  
+  .ola-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px; /* Adjust max-width as needed */
+  }
+  
+  .ola-text {
+    flex: 1;
+    padding-left: 20px; /* Adjust the padding for spacing */
+    align-self: flex-start;
+  }
+  
+  .ola-text h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ola-text p {
+    font-size: 27px;
+    margin-bottom: 10px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .ola-text h3 {
+    font-size: 31px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ola-photo {
+    flex: 1;
+  }
+  
+  .ola-photo img {
+    width: 100%;
+    max-width: 350px; /* Adjust max-width as needed */
+    height: auto;
+    display: block;
+    border-radius: 23px;
+    margin-right: 20px; /* Adjust the margin for spacing */
+  }
+  
+  /* START of PH section here */
+  .ph-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 35px;
+  }
+  
+  .ph-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1025px; /* Adjust max-width as needed */
+  }
+  
+  .ph-text {
+    flex: 1;
+    padding-right: 300px;
+    align-self: flex-start;
+    
+  }
+  
+  .ph-text h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ph-text p {
+    font-size: 27px;
+    margin-bottom: 10px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .ph-text h3 {
+    font-size: 31px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ph-photo {
+    flex: 1;
+  }
+  
+  .ph-photo img {
+    width: 100%;
+    max-width: 350px; /* Adjust max-width as needed */
+    height: auto;
+    display: block;
+    border-radius: 23px;
+    margin-right: 0px;
+  }
+  
+  /* START of KER section here */
+  .ola-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 35px;
+  }
+  
+  .ola-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px; /* Adjust max-width as needed */
+  }
+  
+  .ola-text {
+    flex: 1;
+    padding-left: 20px; /* Adjust the padding for spacing */
+    align-self: flex-start;
+  }
+  
+  .ola-text h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ola-text p {
+    font-size: 27px;
+    margin-bottom: 10px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .ola-text h3 {
+    font-size: 31px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ola-photo {
+    flex: 1;
+  }
+  
+  .ola-photo img {
+    width: 100%;
+    max-width: 350px; /* Adjust max-width as needed */
+    height: auto;
+    display: block;
+    border-radius: 23px;
+    margin-right: 20px; /* Adjust the margin for spacing */
+  }
+  .color-section{
+    background-image:url(/assets/Hair/8.jpg);
+    background-position: center;
+    height: 110vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+  }
+  .blur-overlayo {
+    position: absolute;
+    width: 270vh;
+    height: 110vh;
+    backdrop-filter: blur(3px);
+  }
+  
+  .paragraphhh{
+    font-size: 55px;
+    color: #f8dde6;
+    font-family: "Aboreto", system-ui;
+    z-index: 1;
+    text-align: center;
+    align-self: flex-start;
+    flex: 1;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin: 0;
+  }
+  .paragraphhh h3 {
+    margin: 230px 9px 9px 20px;
+  }
+  
+  .paragraphhh h3.secoond-paragraphhh {
+     /* Adjusted left margin */
+    margin-top: 12px; /* Adjusted bottom margin */
+  }
+  .price-color{
+    justify-content: center;
+    text-align: center;
+    color:#000000;
+    background-color:#f8dde6 ;
+    height: 110vh;
+   
+  }
+  .price-color h1{
+    margin-top: 10px;
+    padding-block-start: 12px;
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:70px;
+    font-weight: bolder;
+   
+   
+  }
+  
+  h3 span {
+    display: block; /* Display each item on a new line */
+    margin-bottom: 2px; /* Add bottom margin for spacing */
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    color: #2f2d2d;
+    font-style: normal;
+  }
+  
+   h4 span {
+    display: block; /* Display each item on a new line */
+    margin-bottom: 2px; /* Add bottom margin for spacing */
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    color: #2f2d2d;
+    font-style: normal;
+  }
+  hr {
+    border: none; /* Remove default border */
+    border-top: 3px solid black; /* Add custom top border */
+    margin: 2px auto  ; 
+    width: 50%;
+    margin-top: 2px;
+  }
+  
+  /* HAIR COLORS START HERE */
+  .black-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 35px;
+  }
+  
+  .black-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px; 
+    padding-left: 90px;
+  }
+  
+  .black-text {
+    flex: 1;
+    padding-right: 300px;
+  }
+  
+  .black-text p {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .black-photo {
+    flex: 1;
+  }
+  
+  .black-photo img {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+    display: block;
+    border-radius: 23px;
+    margin-right: 0px;
+  }
+  
+  .red-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 35px;
+  }
+  
+  .red-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px; /* Adjust max-width as needed */
+  }
+  
+  .red-text {
+    flex: 1;
+    padding-left: 20px; /* Adjust the padding for spacing */
+    align-self: flex-start;
+    padding-top: 70px;
+  }
+  
+  .red-text p {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .red-photo {
+    flex: 1;
+  }
+  
+  .red-photo img {
+    width: 100%;
+    max-width: 300px; /* Adjust max-width as needed */
+    height: auto;
+    display: block;
+    border-radius: 23px;
+    margin-right: 20px; /* Adjust the margin for spacing */
+  }
+  
+  .brown-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 35px;
+  }
+  
+  .brown-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px; 
+    padding-left: 90px;
+  }
+  
+  .brown-text {
+    flex: 1;
+    padding-right: 300px;
+  }
+  
+  .brown-text p {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .brown-photo {
+    flex: 1;
+  }
+  
+  .brown-photo img {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+    display: block;
+    border-radius: 23px;
+    margin-right: 0px;
+  }
+  .blond-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 35px;
+  }
+  
+  .blond-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px; 
+    padding-left: 90px;
+    padding-right: 60px;
+  }
+  
+  .blond-text {
+    flex: 1;
+    padding-right: 40px; /* Adjusted for more space */
+  }
+  
+  .blond-text p {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding-right: 40px;
+  }
+  
+  .blond-photo {
+    flex: 1;
+    margin-left: 40px; /* Added for more space */
+  }
+  
+  .blond-photo img {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+    display: block;
+    border-radius: 23px;
+    margin-right: 0px;
+  }
+  
+  .end-section {
+    background-image: url(/assets/Hair/13.jpg);
+    background-position: center;
+    height: 60vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .end-photo {
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(197, 28, 116, 0.6); /* Pink shadow */
+  }
+  
+  .blur-overlayyy {
+    position: absolute;
+    width: 100;
+    height: 60vh;
+    backdrop-filter: blur(4px);
+  }
+  
+  .paragraphss {
+    font-size: 55px;
+    color: #201d1d;
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 1;
+    text-align: center;
+    align-self: flex-start;
+    flex: 1;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin: 0;
+  }
+  
+  .paragraphss h3 {
+    margin: 100px 9px 9px 20px;
+  }
+  
+  .paragraphss h3.secoond-paragraphss {
+    margin-top: 12px; 
+  }
+  
+  @media (max-width: 760px)  {
+    .hair-section {
+      height: auto;
+      width: 100%;
+      font-size: 8px;
+      
+    }
+    .paragraphs{
+      padding-top: 60%;
+      margin-top: 70%;
+    }
+  }

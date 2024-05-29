@@ -1,0 +1,336 @@
+body{
+    background-color: #fffafc;
+    font-family: 'aboreto';
+    font-style: italic;
+
+}
+.vd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 100%;
+
+  }
+  .cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.4);
+    z-index: 5;
+  }
+  .vd h1{
+    color: white;
+    font-size: 90px;
+    margin-bottom: 50px;
+  }
+
+  .bgvd{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  .vd a{
+    font-size: 23px;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 13px 35px;
+    transition: 0.3s;
+  }
+  .vd a:hover{
+    color: black;
+    background-color: white;
+  }
+
+  .img-txt {
+    display: flex; /* Use flexbox */
+    height: 100vh; /* Set height to 100% of viewport height */
+    width: 100%; /* Set width to 100% */
+    max-width: 100%;
+}
+
+/* Apply styles to the left div (containing the image) */
+.left-b {
+    flex: 0 0 65%; /* Take up 50% of the available space */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 50px; /* Add padding for spacing */
+    flex-direction: column;
+}
+
+/* Apply styles to the right div (containing the text) */
+.right-b {
+    flex: 0 0 35%; /* Take up 50% of the available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.left-a {
+    flex: 0 0 40%; /* Take up 50% of the available space */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-direction: column;
+}
+
+/* Apply styles to the right div (containing the text) */
+.right-a {
+    flex: 0 0 60%; /* Take up 50% of the available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-c {
+    flex: 0 0 40%; /* Take up 50% of the available space */
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center content vertically */
+    flex-direction: column;
+    position: relative;
+}
+
+/* Apply styles to the right div (containing the text) */
+.right-c {
+    flex: 0 0 60%; /* Take up 50% of the available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0%;
+}
+
+.circular-frame {
+    width: 100%; /* Set width to 100% of its container */
+    max-width: 100%; /* Ensure the image does not exceed its container width */
+    max-height: 100%; /* Ensure the image does not exceed its container height */
+    object-fit: cover; /* Prevent the image from stretching or distorting */
+}
+
+.img-txt h2{
+    font-size: 60px;
+}
+.img-txt p{
+    font-size: 30px;
+}
+.btn{
+    font-size: 23px;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: black;
+    text-decoration: none;
+    padding: 13px 35px;
+    transition: 0.3s;
+    background-color: transparent;
+  }
+  .btn:hover{
+    color: white;
+    background-color: black;
+  }
+  .video-grid {
+    position: relative; /* Position relative to contain absolute-positioned headline */
+    display: grid;
+    grid-template-rows: 1fr; /* Single row layout */
+    grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
+    height: 100vh;
+}
+
+.headline {
+    position: absolute; /* Position absolutely */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Occupy entire width of video-grid */
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2; /* Ensure the headline is above the videos */
+}
+
+.headline h2 {
+    color: white;
+    font-size: 36px;
+    margin: 0; /* Remove default margin */
+}
+
+.video-grid .grid-item {
+    position: relative; /* Ensure videos position correctly */
+}
+
+.grid-vd {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute; /* Position videos absolutely */
+    top: 0;
+    left: 0;
+    z-index: 1; /* Ensure the videos are below the headline */
+}
+
+.text-section {
+    height: 20vh; /* Set height to 20% of viewport height */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    text-align: center;
+    margin: 20px; /* Add margin around the text section */
+}
+.text-section h2{
+    font-size: 48px;
+}
+
+.photo-gallery {
+    height: 100vh; /* Set height to 100% of viewport height */
+    width: 100%; /* Set width to 100% of viewport width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center gallery horizontally */
+    align-items: center; /* Center gallery vertically */
+    margin: 20px; /* Add margin around the photo gallery */
+}
+
+.gallery-container {
+    width: 80%; /* Set width to 80% of parent container */
+    height: 80%; /* Set height to 80% of parent container */
+    overflow: hidden; /* Hide overflowing images */
+}
+
+.photo-gallery .carousel-inner {
+    height: 100%;
+}
+
+.photo-gallery .carousel-item {
+    height: 100%;
+}
+
+.photo-gallery .carousel-item .row {
+    height: 100%;
+}
+
+.photo-gallery .carousel-item .col {
+    padding: 0;
+    height: 100%;
+}
+
+.photo-gallery .carousel-item img {
+    height: 100%; /* Set height to 100% of parent container */
+    width: 100%; /* Set width to 100% of parent container */
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+
+
+.contact {
+    width: 100%;
+    padding: 50px;
+    padding-left: 0%;
+    z-index: 5;
+    position: relative;
+
+    /* Add more specific selectors or increase specificity */
+}
+
+.contact .card {
+    border: none !important; /* Override any existing border styles */
+    background-color: transparent !important;
+}
+
+.contact button{
+    padding: 5px 50px;
+    margin: 15px;
+    margin-left: 0%;
+    border: 1px solid rgb(160, 160, 160);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0%;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+input:focus, textarea:focus{
+    outline: none !important;
+    border-color: transparent !important;
+}
+
+
+.topright{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+}
+.bottomright{
+    position: absolute;
+    z-index: 6;
+    bottom: 0;
+    right: 0;
+}
+
+.shopgrid{
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    align-items: center;
+
+}
+
+.shopgrid h1{
+    padding: 20px;
+}
+
+
+.shopgrid .card {
+    width: 200px; /* Set the width of the cards */
+    height: 200px;
+    margin-bottom: 20px; /* Add some margin between the cards */
+    background-color: #fffafc;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+    align-items: center;
+    justify-content: center;}
+
+.card-img-top {
+    padding: 20px 0;
+    width: 70px;
+    object-fit: cover; /* Ensure the images fill the entire space of the cards without distortion */
+}
+
+.boxfooter {
+    background-color: #e6c2bf;
+    width: 100vw; /* Set width to 100% of the viewport width */
+    height: 100px;
+    z-index: 0;
+    margin: 0; /* Remove margin */
+    position: absolute; /* Position the .boxfooter absolutely within the .shopgrid container */
+    bottom: 0;
+}
+
+
+
+
+
+@media (min-aspect-ratio:16/9){
+    .bgvd{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio:16/9){
+    .bgvd{
+        width: auto;
+        height: 100%;
+    }
+}

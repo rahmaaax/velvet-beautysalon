@@ -1,0 +1,255 @@
+
+body{
+    background-color: #fffafc;
+    font-style: italic;
+    font-family: 'aboreto';
+
+}
+
+.img-txt {
+    display: flex; /* Use flexbox */
+    height: 100vh; /* Set height to 100% of viewport height */
+    width: 100%; /* Set width to 100% */
+    max-width: 100%;
+}
+
+/* Apply styles to the left div (containing the image) */
+.left {
+    flex: 0 0 65%; /* Take up 50% of the available space */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 50px; /* Add padding for spacing */
+    flex-direction: column;
+}
+
+/* Apply styles to the right div (containing the text) */
+.right {
+    flex: 0 0 35%; /* Take up 50% of the available space */
+    padding: 20px; /* Add padding for spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left-2 {
+    flex: 0 0 50%; /* Take up 50% of the available space */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 50px; /* Add padding for spacing */
+    flex-direction: column;
+}
+
+/* Apply styles to the right div (containing the text) */
+.right-2 {
+    flex: 0 0 50%; /* Take up 50% of the available space */
+    padding: 20px; /* Add padding for spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img-txt h2{
+    font-size: 60px;
+}
+.img-txt p{
+    font-size: 25px;
+}
+#title4 {
+    margin-top: 5rem;
+    border-bottom: 7px solid #e6c2bf;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+
+  .img-frame{
+    width: 100%; /* Set width to 100% of its container */
+    height: auto; /* Allow the height to adjust while maintaining aspect ratio */
+    max-width: 100%; /* Ensure the image does not exceed its container width */
+    max-height: 100%; /* Ensure the image does not exceed its container height */
+    padding: 0%;
+    margin: 0%;
+    bottom: 0%;
+    right: 0%;
+    top: 0%;
+}
+
+.box-border{
+    text-align: right;
+    background-color: #e6c2bf;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 1% 0% 10% auto ;
+    top: 0;
+}
+.vid-top {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.video-bg {
+    width: 100%;
+    height: 35%; /* Set the video height to 20% of the container */
+    object-fit: cover; /* Ensure the video covers the width and height without distortion */
+}
+
+.content {
+    flex: 1; /* Take up the remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center text horizontally */
+}
+.carousel {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative; /* Ensure relative positioning for absolute children */
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: absolute; /* Position items absolutely */
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0; /* Initially hidden */
+}
+
+.carousel-item.active {
+    opacity: 1; /* Show active item */
+}
+
+.carousel-content {
+    width: 70%;
+    height: 50%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Transparent background */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Box shadow */
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.carousel-content h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.carousel-content p{
+    font-size: 20px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+
+.carousel-control-prev {
+    left: 20px;
+}
+
+.carousel-control-next {
+    right: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* Make the icons white or use a dark color */
+}
+
+
+.shopgrid {
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .shopgrid h1 {
+    padding: 20px;
+  }
+  
+  .shopgrid .card {
+    width: 100%; /* Set the width of the cards */
+    height: 400px;
+    margin-bottom: 20px; /* Add some margin between the cards */
+    background-color: #fffafc;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-img-top {
+    padding: 0;
+    width: 100%;
+    height: 60%;
+    object-fit: cover; /* Ensure the images fill the entire space of the cards without distortion */
+  }
+  
+  .card-body h4 {
+    border-bottom: 2px solid #e6c2bf;
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  .card-body {
+    height: 40%;
+  }
+  
+  .boxfooter {
+    background-color: #e6c2bf;
+    width: 100vw; /* Set width to 100% of the viewport width */
+    height: 40%;
+    z-index: 0;
+    margin: 0; /* Remove margin */
+    position: absolute; /* Position the .boxfooter absolutely within the .shopgrid container */
+    bottom: 0;
+  }
+  .topright{
+    position: absolute;
+    width: 25%;
+    z-index: 9;
+    top: 0;
+    right: 0;
+}
+  

@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fffafc;
+    color: black;
+    backdrop-filter: blur(20px);
+    position: relative;
+    
+}
+
+
+
+.blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: rgba(223, 221, 213, 0.2);
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(3px);
+}
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc; /* Add a bottom border for separating inputs */
+    margin-right: 10px; /* Add some space between inputs */
+}
+
+input:focus{
+    outline: none !important;
+    border-color: transparent !important;
+}
+
+
+.btn{
+    font-size: 15px;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 50px;
+    color: black;
+    text-decoration: none;
+    padding: 7px 70px;
+    transition: 0.3s;
+    background-color: transparent;
+    margin-bottom: 15px;
+  }
+  .btn:hover{
+    color: white;
+    background-color: black;
+  }
+
+#container {
+    box-shadow: 4px 5px 4px #B2C5B2;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto; /* Center horizontally */
+    padding: 0;
+    border: 0.05px #c4bcbe solid;
+    height: 400px; /* Optional: If you want to maintain a fixed height */
+    position: relative; /* Ensure the container is positioned relative to the body */
+    top: 50%; /* Move the container down by 50% of its height */
+    transform: translateY(-50%); /* Adjust the position to center vertically */
+}
+
+
+
+
+.left {
+    flex: 0 0 60%; /* Take up 50% of the available space */
+    align-items: center; /* Center content vertically */
+    justify-content: left;
+    margin: 0;
+    height: 100%;
+    padding: 0 15px;
+
+}
+
+/* Apply styles to the right div (containing the text) */
+
+
+.right {
+    height: 100%;
+    flex: 0 0 40%;
+    position: relative; /* Keep only one instance of position: relative; */
+    padding-bottom: 0%;
+    justify-content: center;
+    margin: 0%;
+    align-items: flex-end; /* Align items to the bottom */
+}
+
+.topright{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+}
+img {
+    
+    padding-bottom: 0%;
+    max-width: 100%;
+    position: absolute; /* Add position relative */
+    z-index: 5; /* Set z-index to place the image above the .colorbx */
+    bottom: 0 !important;
+    right: 0 !important;
+}
+
+.colorbx {
+    position: absolute; /* Add position absolute */
+    z-index: 1; /* Set z-index to place the .colorbx behind the image */
+    background-color: #e6c2bf;
+    height: 100%;
+    width: 150px;
+    top: 0; /* Align .colorbx to the top */
+    right: 0; /* Align .colorbx to the left */
+}

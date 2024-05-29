@@ -1,0 +1,10 @@
+.navbar-custom {
+    min-height: 60px;
+    padding: 10px;
+    background-color: transparent !important;
+    color: #ddd;
+  }
+  
+  .navbar-custom .navbar-nav .nav-link {
+    color: #d5dddF !important; 
+  }

@@ -1,0 +1,33 @@
+<body>
+<div *ngIf="product" class="product-details">
+    <!-- Product Name -->
+    <h2 class="product-name">{{ product.name }}</h2>
+    
+    <!-- Images -->
+    <div class="product-images">
+      <img [src]="product.imageUrl" *ngIf="product.imageUrl" alt="Product Image 1">
+      <img [src]="product.imageUrl2" *ngIf="product.imageUrl2" alt="Product Image 2">
+    </div>
+    
+    <!-- Other product details -->
+    <div class="product-description">
+      <h4>{{ product.description }}</h4>
+      <p><strong>Details:</strong> {{ product.details}}</p>
+      <p style="text-align: center;"><strong>Price: {{ product.price | currency }}</strong> </p>      
+      <!-- Add more details here -->
+    </div>
+    <!-- Add to cart button -->
+    <div class="button-container" *ngIf="product.addedToCart">
+        <button class="btn btn-sm btn-secondary" (click)="decreaseQuantity(product)">-</button>
+        {{ product.quantity }}
+        <button class="btn btn-sm btn-secondary" (click)="increaseQuantity(product)">+</button>
+      </div>
+      <div class="button-container" *ngIf="!product.addedToCart">
+        <button class="btn btn-sm btn-success" (click)="addItemToCart(product)">Add To Cart</button>
+      </div>
+  </div>
+  
+  <div *ngIf="!product">
+    <p>Product not found</p>
+  </div>
+</body>

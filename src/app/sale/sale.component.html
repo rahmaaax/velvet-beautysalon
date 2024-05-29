@@ -1,0 +1,70 @@
+<body>
+  
+  <div class="bg-img">
+    <div class="blur">
+      <div class="cart-wrapper">
+        <div class="login-container"> 
+          <div class="left">
+            <h1>Cart Items</h1><br>
+            <h4>Fantastic choice! Your beauty essentials await - quick, let's make them yours!</h4>
+            <button class="checkbtn btn-success" (click)="makeSale()">Checkout</button>
+          </div>
+          <div class="right">
+            <table class="Cart-Table">
+              <tbody>
+                <tr *ngFor="let cartItem of cartProducts">
+                  <td class="Cart-Item">
+                    <img src="{{ cartItem.imageUrl }}" alt="{{ cartItem.name }}">
+                  </td>
+                  <td class="Cart-Item">
+                    <div class="mydiv2">
+                      <h4>{{ cartItem.name }}</h4><br>
+                      <div class="mydiv">
+                        <p>Quantity: </p>
+                        <p>{{ cartItem.quantity }}</p>
+                      </div>
+                      <div class="mydiv">
+                        <p>Price:</p>
+                        <p> ${{ cartItem.price | currency:'USD':'symbol':'1.2-2' }}</p>
+                      </div>
+                      <div class="mydiv">
+                        <p>Total: </p>
+                        <p>${{ calculateProductTotal(cartItem) | currency:'USD':'symbol':'1.2-2' }}</p>
+                      </div>
+                      <div class="center-content">
+                        <div class="button-group">
+                          <button (click)="decreaseQuantity(cartItem)" class="btn1">-</button>
+                          <button (click)="increaseQuantity(cartItem)" class="btn1">+</button>
+                        </div>
+                        <br>
+                        <button (click)="removeCartItemById(cartItem.id)" class="icon-button">
+                          <i class="fa-solid fa-trash"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="checkout">
+              <div>
+                <div class="mydiv">
+                  <div style="text-align: left;">Sub-Total: </div>
+                  <div class="total-amount" style="text-align: right;"> {{ calculateOrderTotal() | currency:'USD':'symbol':'1.2-2' }}</div>
+                </div>
+                <div class="mydiv">
+                  <div style="text-align: left;">Shipping:</div>
+                  <div style="text-align: right;"> FREE SHIPPING!</div>
+                </div>
+                <div class="mydiv">
+                  <div style="text-align: left;">Grand Total: </div>
+                  <div class="total-amount" style="text-align: right;"> {{ calculateOrderTotal() | currency:'USD':'symbol':'1.2-2' }}</div>
+                </div>
+              </div>
+            </div>      
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
